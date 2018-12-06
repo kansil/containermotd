@@ -28,4 +28,4 @@ fi
 
 cat /etc/update-motd.d/kansil_logo.txt
 
-printf "[%s] %s %s)\n Welcome to %s \n"  "$DISTRIB_DESCRIPTION" "$(uname -o)" "$(uname -r)" "$(hostname)"
+printf "%s %s\n\n\nWelcome to %s\n"  "$DISTRIB_DESCRIPTION" "$(uname -r)" "$(hostname)"
